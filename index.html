@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Products</h1>
+        <a href="cart.html">Cart (0)</a> <!-- Cart link with item count -->
+    </header>
+    <main>
+        <section id="categories">
+            <h2>Electronics (10% off)</h2>
+            <div class="product" onclick="goToProduct('Laptop', 500, 10)">
+                <img src="laptop.png" alt="Laptop">
+                <p>Laptop - $500</p>
+            </div>
+            <!-- Add more products similarly for other categories -->
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
